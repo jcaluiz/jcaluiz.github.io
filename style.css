@@ -1,0 +1,146 @@
+/* Seu Portfólio Web deve ter um layout usando Box Model com as informações a seguir:
+Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;
+A descrição deve ficar ao lado da foto;
+Centralize seu nome na página;
+Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
+Adicione margin e padding nos elementos que julgar necessário;
+Coloque estilo somente nos itens ímpares da lista das suas habilidades. */
+
+
+body {
+    background-image: url(./fundo-site2.jpg);
+}
+
+.meuNome {
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.picture {
+    border-radius: 45px;
+    float: left;
+    padding: 10px;
+    background-color: #11a36a;
+}
+
+.image-container {
+    height: 270px;
+    position: relative;
+}
+
+.description {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(5, 2, 2);
+    font-weight: 590;
+    
+}
+
+#sobreMim {
+    position: absolute;
+    z-index: 1;
+    left: 300px;
+    top: 20px;
+
+}
+
+#descricao {
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 270px;
+
+
+}
+
+.proativo {
+    font-size: 20px;
+
+}
+
+.autogestao {
+    font-size: 19px;
+
+}
+
+.disciplina {
+    font-size: 18px;
+
+}
+
+.HTML {
+    font-size: 17px;
+}
+
+.CSS {
+    font-size: 17px;
+}
+
+.titulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color: rgb(124, 24, 24);
+}
+
+.subtitulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    color: rgb(42, 42, 122);
+}
+
+.buttonPicture {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(43, 41, 40) ;
+    background-color: #11a36a;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.listaIndice {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(43, 41, 40) ;
+    background-color: #6eb397;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.indice {
+    line-height: 100px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.blog {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(43, 41, 40) ;
+    background-color: #6eb397;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+div {
+    
+}
+
+ul li:nth-child(even) {
+    background-color: #6eb397;
+}
+
+.skills {
+    padding: 10px 100px;
+    left: 2px;
+}
