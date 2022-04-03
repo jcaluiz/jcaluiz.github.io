@@ -144,3 +144,15 @@ ul li:nth-child(even) {
     padding: 10px 100px;
     left: 2px;
 }
+
+.listaIndice:hover {
+    font-size: 20px;
+}
+
+.buttonPicture:hover {
+    font-size: 20px;
+}
+
+.blog:hover {
+    font-size: 20px;
+}
