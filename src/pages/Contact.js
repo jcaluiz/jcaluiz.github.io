@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <>
             <Header />
-            <h1>Eu sou Contato</h1>
+            <h1>A página de contato está em construção</h1>
         </>
     )
 }

@@ -2,7 +2,7 @@
   "name": "jcaluiz.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://https://jcaluiz.github.io/",
+  "homepage": "https://jcaluiz.github.io/",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",

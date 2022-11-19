@@ -5,7 +5,7 @@ export default function Projects() {
     return (
         <>
             <Header />
-            <h1>Eu sou Projects</h1>
+            <h1>A página de projeto está em construção</h1>
         </>
     )
 }
