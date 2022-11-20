@@ -7,12 +7,13 @@ import whatsappLogo from '../images/icons/social/whatsapp.png';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import CarouselComponent from '../components/profile/Carousel';
+import Footer from '../components/Footer';
 
 export default function Profile() {
     return (
         <>
             <Header />
-            <main>
+            <main className='main-profile'>
                 <div className='introduction-pic-container'>
                     <div className='introduction-container'>
                         <div>
@@ -63,6 +64,7 @@ export default function Profile() {
                     </div>
                 </div>
             </main>
+            <Footer />
         </>
     )
 }

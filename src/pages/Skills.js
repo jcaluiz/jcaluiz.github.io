@@ -1,16 +1,17 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default function Skills() {
     return (
         <>
             <Header />
-            <main>
+            <main className='main-skills'>
                 <div className='title-page'>
                     <h1>Minhas Habilidades</h1>
                 </div>
                 <div id='hard-skills-container'>
-                    <div>
+                    <div id='general-skills'>
                         <div id='my-skills'>
 
                             <p>
@@ -68,6 +69,7 @@ export default function Skills() {
                 </div>
 
             </main>
+            <Footer />
         </>
     )
 }

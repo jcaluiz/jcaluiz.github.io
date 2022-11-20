@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 export default function Projects() {
@@ -6,6 +7,7 @@ export default function Projects() {
         <>
             <Header />
             <h1>A página de projeto está em construção</h1>
+            <Footer />
         </>
     )
 }
