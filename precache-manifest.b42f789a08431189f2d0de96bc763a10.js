@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/shop-cart-project.cf8ab780.png"
   },
   {
-    "revision": "d02977c3052a99061a968803d674ebba",
+    "revision": "efb6fea7399f7165527c91bb8e923dc8",
     "url": "/index.html"
   }
 ];
