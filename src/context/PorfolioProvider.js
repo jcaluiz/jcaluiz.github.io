@@ -3,6 +3,7 @@ import React from 'react';
 import PortfolioContext from './PortfolioContext';
 
 export default function PortfolioProvider({ children }) {
+
     const context = {};
     
     return (

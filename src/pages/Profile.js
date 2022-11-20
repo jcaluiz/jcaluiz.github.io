@@ -16,10 +16,10 @@ export default function Profile() {
                 <div className='introduction-pic-container'>
                     <div className='introduction-container'>
                         <div>
-                            <h1 className='introduction-title'>
+                            <h1 className='introduction-title about-text'>
                                 Olá
                             </h1>
-                            <h2 className='introduction-title'>
+                            <h2 className='introduction-title about-text'>
                                 Eu sou{' '}
                                 <span>L</span>
                                 <span>u</span>
@@ -35,11 +35,11 @@ export default function Profile() {
                             </h2>
                         </div>
                         <div>
-                            <h3 className='introduction-title'>Eu sou Desenvolvedor Web Full-Stack</h3>
+                            <p className='introduction-title about-text'>Eu sou Desenvolvedor Web Full-Stack</p>
                         </div>
                         <div>
                             <Link to='/sobre'>
-                                <Button variant="primary" size="lg">Sobre Mim</Button>
+                                <Button className='space-container' variant="primary" size="lg">Sobre Mim</Button>
                             </Link>
                         </div>
                         <div className='social-container'>
