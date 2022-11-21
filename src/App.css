@@ -307,6 +307,7 @@ footer {
     margin-top: 250px;
     justify-content: center;
     align-items: flex-start;
+    gap: 100px;
   }
 
   .introduction-title {
@@ -315,7 +316,7 @@ footer {
   }
   
   #minha-foto {
-    width: 200px;
+    width: auto;
     margin-left: 10px;
   }
 
