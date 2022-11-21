@@ -1,15 +1,15 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+// import Button from 'react-bootstrap/Button';
+// import Form from 'react-bootstrap/Form';
 
 export default function Contact() {
     return (
         <>
             <Header />
             <h1>A página de contato está em construção</h1>
-            <Form>
+            {/* <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
@@ -28,7 +28,7 @@ export default function Contact() {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
-            </Form>
+            </Form> */}
             <Footer />
         </>
     )

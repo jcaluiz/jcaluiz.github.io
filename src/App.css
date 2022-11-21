@@ -2,7 +2,7 @@ body {
   background: linear-gradient(-45deg, #ee7752, #b18f9c, #23a6d5, #23d5ab) no-repeat;
   background-size: 300% 300%;
   height: 160vh;
-  animation: gradient 10s ease infinite;
+  animation: gradient 10s ease-in-out infinite;
   color: white;
 }
 
@@ -238,10 +238,15 @@ footer {
   body {
     /* overflow: hidden; */
     height: 140vh;
+    width: auto;
+    animation: none;
+    background: linear-gradient(-45deg, #7BD389, #AEDCC0, #607466, #343E3D) no-repeat;
+    background-size: 405vw 405vh;
   }
 
   header {
     width: 920px;
+    background: linear-gradient(-45deg, #7BD389, #AEDCC0, #607466, #343E3D) no-repeat;
   }
 
   main {
@@ -263,7 +268,7 @@ footer {
 
   #header-buttons-container-mobile {
     position: absolute;
-    top: 10vh;
+    top: 8vh;
     display: flex;
     gap: 100px;
     text-decoration: none;
@@ -275,7 +280,12 @@ footer {
     /* right: 0; */
     width: 100vw;
     height: 180vh;
-    background: linear-gradient(-45deg, #ee7752, #b18f9c, #23a6d5, #23d5ab) no-repeat;
+    background: linear-gradient(#aedcc0, #7bd389, #38e4ae);
+    /* background: linear-gradient(-45deg, #c5a61a, #746b35, #d6bc64, #b49920) no-repeat; */
+  }
+
+  a button {
+    color: white;
   }
 
   #header-buttons-container li {
