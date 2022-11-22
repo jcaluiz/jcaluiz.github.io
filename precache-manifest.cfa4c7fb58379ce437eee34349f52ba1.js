@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "bb86a700ba2687dae542",
-    "url": "/static/css/main.03968705.chunk.css"
+    "revision": "2aa9249329f5a96e9a07",
+    "url": "/static/css/main.e728333f.chunk.css"
   },
   {
-    "revision": "bb86a700ba2687dae542",
-    "url": "/static/js/main.bb86a700.chunk.js"
+    "revision": "2aa9249329f5a96e9a07",
+    "url": "/static/js/main.2aa92493.chunk.js"
   },
   {
-    "revision": "8f3f6e4ed9194af3ec2b",
-    "url": "/static/js/1.8f3f6e4e.chunk.js"
+    "revision": "f5a007bd82ce9c83edfc",
+    "url": "/static/js/1.f5a007bd.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -36,7 +36,11 @@ self.__precacheManifest = [
     "url": "/static/media/shop-cart-project.cf8ab780.png"
   },
   {
-    "revision": "2410f43ba734f72f62a433fce1092c94",
+    "revision": "5899af0efa339469aa8fc2676a1c555c",
+    "url": "/static/media/Star_Wars_Logo.svg.5899af0e.png"
+  },
+  {
+    "revision": "e05661389eec8a703df7e358cc673264",
     "url": "/index.html"
   }
 ];

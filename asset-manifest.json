@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.03968705.chunk.css",
-  "main.js": "/static/js/main.bb86a700.chunk.js",
-  "main.js.map": "/static/js/main.bb86a700.chunk.js.map",
-  "static/js/1.8f3f6e4e.chunk.js": "/static/js/1.8f3f6e4e.chunk.js",
-  "static/js/1.8f3f6e4e.chunk.js.map": "/static/js/1.8f3f6e4e.chunk.js.map",
+  "main.css": "/static/css/main.e728333f.chunk.css",
+  "main.js": "/static/js/main.2aa92493.chunk.js",
+  "main.js.map": "/static/js/main.2aa92493.chunk.js.map",
+  "static/js/1.f5a007bd.chunk.js": "/static/js/1.f5a007bd.chunk.js",
+  "static/js/1.f5a007bd.chunk.js.map": "/static/js/1.f5a007bd.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/minha-foto.png": "/static/media/minha-foto.bbb56b26.png",
@@ -11,8 +11,9 @@
   "static/media/whatsapp.png": "/static/media/whatsapp.19455d67.png",
   "static/media/trivia-project-1.png": "/static/media/trivia-project-1.57ba880f.png",
   "static/media/shop-cart-project.png": "/static/media/shop-cart-project.cf8ab780.png",
-  "static/css/main.03968705.chunk.css.map": "/static/css/main.03968705.chunk.css.map",
+  "static/media/Star_Wars_Logo.svg.png": "/static/media/Star_Wars_Logo.svg.5899af0e.png",
+  "static/css/main.e728333f.chunk.css.map": "/static/css/main.e728333f.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9eb64fb72cd332515cde3cd7aa459df4.js": "/precache-manifest.9eb64fb72cd332515cde3cd7aa459df4.js",
+  "precache-manifest.cfa4c7fb58379ce437eee34349f52ba1.js": "/precache-manifest.cfa4c7fb58379ce437eee34349f52ba1.js",
   "service-worker.js": "/service-worker.js"
 }
