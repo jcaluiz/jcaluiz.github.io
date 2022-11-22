@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "792b2ac536d071a7e54e",
-    "url": "/static/css/main.389494b0.chunk.css"
+    "revision": "de0bd7d066d0e24ece8c",
+    "url": "/static/css/main.d03379f0.chunk.css"
   },
   {
-    "revision": "792b2ac536d071a7e54e",
-    "url": "/static/js/main.792b2ac5.chunk.js"
+    "revision": "de0bd7d066d0e24ece8c",
+    "url": "/static/js/main.de0bd7d0.chunk.js"
   },
   {
     "revision": "c43c4acdfcedbb83c4d3",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/Star_Wars_Logo.svg.5899af0e.png"
   },
   {
-    "revision": "580f26dc89dba4d1627c004f14af4d37",
+    "revision": "25d37b719b2ecfc945a3d6e511029ca5",
     "url": "/index.html"
   }
 ];
