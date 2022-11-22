@@ -282,7 +282,6 @@ footer {
 
   .main-project {
     width: 370px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
   }
