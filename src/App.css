@@ -242,6 +242,25 @@ footer {
   color: black;
 }
 
+.button-project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.main-project h1 {
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 1px 1px 2px black;
+}
+
 @media (max-width: 920px) {
   body {
     /* overflow: hidden; */
@@ -259,6 +278,17 @@ footer {
 
   main {
     width: 920px;
+  }
+
+  .main-project {
+    width: 370px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-project h1 {
+    font-size: 50px;
   }
 
   #header-elements-container {
