@@ -234,6 +234,14 @@ footer {
   display: none;
 }
 
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
 @media (max-width: 920px) {
   body {
     /* overflow: hidden; */
