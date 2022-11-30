@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "de0bd7d066d0e24ece8c",
-    "url": "/static/css/main.d03379f0.chunk.css"
+    "revision": "b9f2003960a2ab86d0d8",
+    "url": "/static/css/main.f926b120.chunk.css"
   },
   {
-    "revision": "de0bd7d066d0e24ece8c",
-    "url": "/static/js/main.de0bd7d0.chunk.js"
+    "revision": "b9f2003960a2ab86d0d8",
+    "url": "/static/js/main.b9f20039.chunk.js"
   },
   {
-    "revision": "c43c4acdfcedbb83c4d3",
-    "url": "/static/js/1.c43c4acd.chunk.js"
+    "revision": "4b312a43e0ba8c7ad921",
+    "url": "/static/js/1.4b312a43.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -40,7 +40,11 @@ self.__precacheManifest = [
     "url": "/static/media/Star_Wars_Logo.svg.5899af0e.png"
   },
   {
-    "revision": "25d37b719b2ecfc945a3d6e511029ca5",
+    "revision": "a18bb007fd892e2b745442c2ad79253c",
+    "url": "/static/media/trybewallet.a18bb007.png"
+  },
+  {
+    "revision": "158ca451b1d70bceea58f3c13a35e454",
     "url": "/index.html"
   }
 ];
