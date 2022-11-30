@@ -20,13 +20,17 @@ body {
   }
 }
 
-header {
+.header-content-container {
   /* border: #282c34 solid 2px; */
   height: 70px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   box-shadow: -1em 0 0.4em rgb(134 134 131);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
   /* background-image: linear-gradient(to
   bottom, #f8f8f8, rgb(250, 250, 245)); */
   /* border-bottom: #eaebee solid 1px; */
@@ -94,8 +98,9 @@ header {
   height: 12rem;
   justify-content: fle;
   align-items:flex-start;
-  padding-top: 60px;
+  padding-top: 100px;
   gap: 40px;
+  z-index: 0;
 }
 
 .introduction-container {
@@ -140,6 +145,8 @@ footer {
 #hard-skills-container {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
+  gap: 20px;
 }
 
 .skills-container {
@@ -251,14 +258,21 @@ footer {
 .main-project {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  margin-top: 30px;
+  gap: 50px;
+  /* margin-top: 30px; */
 }
 
 .main-project h1 {
   text-align: center;
+  margin-top: 100px;
   font-size: 60px;
   text-shadow: 1px 1px 2px black;
+}
+
+#projects-card {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 920px) {
@@ -304,7 +318,7 @@ footer {
   }
 
   #header-buttons-container-mobile {
-    position: absolute;
+    position:fixed;
     top: 8vh;
     display: flex;
     gap: 100px;
@@ -323,6 +337,10 @@ footer {
 
   a button {
     color: white;
+  }
+
+  .title-page {
+    margin-top: 80px;
   }
 
   #header-buttons-container li {
@@ -351,7 +369,7 @@ footer {
     flex-direction: column-reverse;
     /* position: relative; */
     z-index: 0;
-    margin-top: 250px;
+    margin-top: 350px;
     justify-content: center;
     align-items: flex-start;
     gap: 100px;
@@ -397,6 +415,7 @@ footer {
   .main-skills {
     width: 300px;
     padding-left: 20px;
+    top: 500px;
   }
 
   #general-skills {
@@ -427,6 +446,13 @@ footer {
     display: flex;
     position: absolute;
     bottom: -1150px;
+  }
+
+  #projects-card {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 

@@ -13,7 +13,7 @@ export default function Header() {
     }
 
     return (
-        <header>
+        <header className='header-content-container'>
             <nav id='header-container'>
                 <div id='header-elements-container'>
                     <img id='imagem-perfil' src={perfilImagem} alt='imagem de perfil' />
