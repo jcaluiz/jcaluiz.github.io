@@ -67,7 +67,7 @@ export default function Contact() {
                     <Form.Group
                         className="mb-3"
                         controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Example textarea</Form.Label>
+                        <Form.Label>Mensagem</Form.Label>
                         <Form.Control
                             as="textarea"
                             onChange={(e) => setMessage(e.target.value)}
