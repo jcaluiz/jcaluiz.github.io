@@ -337,6 +337,7 @@ footer {
 
   .header-content-container {
     top: 0;
+    width: 100%;
   }
 
   header {
@@ -404,6 +405,7 @@ footer {
 
   #header-container {
     display: flex;
+    width: 70%;
     justify-content: flex-start;
   }
 
