@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "095400194062b9197418",
-    "url": "/static/css/main.482034e9.chunk.css"
+    "revision": "36106ed44e62cdc307ec",
+    "url": "/static/css/main.49e1c4de.chunk.css"
   },
   {
-    "revision": "095400194062b9197418",
-    "url": "/static/js/main.09540019.chunk.js"
+    "revision": "36106ed44e62cdc307ec",
+    "url": "/static/js/main.36106ed4.chunk.js"
   },
   {
     "revision": "ff5318552f03bd58b2a9",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/trybewallet.a18bb007.png"
   },
   {
-    "revision": "f14932433fe4c933d889a4f3226ba033",
+    "revision": "b44fdc3d24c39e923a17092b14718e1a",
     "url": "/index.html"
   }
 ];
