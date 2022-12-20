@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "36106ed44e62cdc307ec",
-    "url": "/static/css/main.49e1c4de.chunk.css"
+    "revision": "be4ad99a13149a26769a",
+    "url": "/static/css/main.452c83d8.chunk.css"
   },
   {
-    "revision": "36106ed44e62cdc307ec",
-    "url": "/static/js/main.36106ed4.chunk.js"
+    "revision": "be4ad99a13149a26769a",
+    "url": "/static/js/main.be4ad99a.chunk.js"
   },
   {
-    "revision": "ff5318552f03bd58b2a9",
-    "url": "/static/js/1.ff531855.chunk.js"
+    "revision": "5d83e43cadf92dd74434",
+    "url": "/static/js/1.5d83e43c.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -44,7 +44,11 @@ self.__precacheManifest = [
     "url": "/static/media/trybewallet.a18bb007.png"
   },
   {
-    "revision": "b44fdc3d24c39e923a17092b14718e1a",
+    "revision": "529b1e6bc8ebc83e6416ed2bf5748038",
+    "url": "/static/media/color-palette.529b1e6b.jpg"
+  },
+  {
+    "revision": "f3af3ca51efe1b8a68ced1d4f768ca75",
     "url": "/index.html"
   }
 ];
