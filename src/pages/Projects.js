@@ -14,7 +14,7 @@ export default function Projects() {
                 <div id="projects-card">
                     {
                         projects.map((project) => (
-                            <Card style={{ width: '18rem' }}>
+                            <Card style={{ width: '23rem' }}>
                                 <Card.Img variant="top" src={project.image} />
                                 <Card.Body>
                                     <Card.Title>{project.title}</Card.Title>
