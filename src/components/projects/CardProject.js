@@ -1,6 +1,6 @@
-import starWars from '../../images/projects/Star_Wars_Logo.svg.png';
+import starWars from '../../images/projects/Star_Wars_Logo.svg-removebg-preview.png';
 import trybewallet from '../../images/projects/trybewallet.png';
-import colorPalette from '../../images/projects/color-palette.jpg';
+import colorPalette from '../../images/projects/color-palete-removed.png';
 
 const projects = [
     {

@@ -14,24 +14,50 @@ export default function Projects() {
                 <div id="projects-card">
                     {
                         projects.map((project) => (
-                            <Card style={{ width: '23rem' }}>
-                                <Card.Img variant="top" src={project.image} />
-                                <Card.Body>
-                                    <Card.Title>{project.title}</Card.Title>
-                                    <Card.Text>
-                                        {project.text}
-                                    </Card.Text>
-                                    <div className="button-project-container">
-                                        <a href={project.hrefPage} target='_blank' rel='noreferrer'>
-                                            <Button variant="primary">Ir à página</Button>
-                                        </a>
+                            // <Card style={{ width: '23rem' }}>
+                            //     <Card.Img variant="top" src={project.image} />
+                            //     <Card.Body>
+                            //         <Card.Title>{project.title}</Card.Title>
+                            //         <Card.Text>
+                            //             {project.text}
+                            //         </Card.Text>
+                            //         <div className="button-project-container">
+                            //             <a href={project.hrefPage} target='_blank' rel='noreferrer'>
+                            //                 <Button variant="primary">Ir à página</Button>
+                            //             </a>
 
-                                        <a href={project.hrefGitHub} target='_blank' rel='noreferrer'>
-                                            <Button variant="primary">Ir para o Repositório GitHub</Button>
-                                        </a>
+                            //             <a href={project.hrefGitHub} target='_blank' rel='noreferrer'>
+                            //                 <Button variant="primary">Ir para o Repositório GitHub</Button>
+                            //             </a>
+                            //         </div>
+                            //     </Card.Body>
+                            // </Card>
+                            <div className="container">
+                                <div className="card">
+                                    <div className="imgBx">
+                                        <img src={project.image} />
                                     </div>
-                                </Card.Body>
-                            </Card>
+                                    <div className="contentBx">
+                                        <h2 id='project-title'>{project.title}</h2>
+                                        <div id='buttons-project-container'>
+                                            <a href={project.hrefGitHub} target="_blank">
+                                                <div className="box-3">
+                                                    <div className="btn-project btn-three">
+                                                        <span>PÁGINA DO GITHUB</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href={project.hrefPage} target="_blank">
+                                                <div className="box-3">
+                                                    <div className="btn-project btn-three">
+                                                        <span>PÁGINA DO PROJETO</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         ))
                     }
                 </div>
