@@ -39,7 +39,7 @@ export default function Projects() {
                                     </div>
                                     <div className="contentBx">
                                         <h2 id='project-title'>{project.title}</h2>
-                                        <div id='buttons-project-container'>
+                                        {/* <div id='buttons-project-container'> */}
                                             <a href={project.hrefGitHub} className="btn-project-cursor" target="_blank">
                                                 <div className="box-3">
                                                     <div className="btn-project btn-three">
@@ -54,7 +54,7 @@ export default function Projects() {
                                                     </div>
                                                 </div>
                                             </a>
-                                        </div>
+                                        {/* </div> */}
                                     </div>
                                 </div>
                             </div>
