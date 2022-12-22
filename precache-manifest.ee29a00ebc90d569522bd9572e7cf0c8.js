@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "53277b36757481aca631",
-    "url": "/static/css/main.ea9593df.chunk.css"
+    "revision": "8fb05f1c1d239bfa657e",
+    "url": "/static/css/main.fa20c7b7.chunk.css"
   },
   {
-    "revision": "53277b36757481aca631",
-    "url": "/static/js/main.53277b36.chunk.js"
+    "revision": "8fb05f1c1d239bfa657e",
+    "url": "/static/js/main.8fb05f1c.chunk.js"
   },
   {
     "revision": "b9328e34c49a0256f6c3",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/color-palete-removed.4c2bb84c.png"
   },
   {
-    "revision": "dd1213bc56c957ae2a6e21a49aae9d70",
+    "revision": "0a26dbdc56ff72a31e4eadda24d3dde8",
     "url": "/index.html"
   }
 ];

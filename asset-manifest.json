@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.ea9593df.chunk.css",
-  "main.js": "/static/js/main.53277b36.chunk.js",
-  "main.js.map": "/static/js/main.53277b36.chunk.js.map",
+  "main.css": "/static/css/main.fa20c7b7.chunk.css",
+  "main.js": "/static/js/main.8fb05f1c.chunk.js",
+  "main.js.map": "/static/js/main.8fb05f1c.chunk.js.map",
   "static/js/1.b9328e34.chunk.js": "/static/js/1.b9328e34.chunk.js",
   "static/js/1.b9328e34.chunk.js.map": "/static/js/1.b9328e34.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -14,8 +14,8 @@
   "static/media/Star_Wars_Logo.svg-removebg-preview.png": "/static/media/Star_Wars_Logo.svg-removebg-preview.07265e64.png",
   "static/media/trybewallet.png": "/static/media/trybewallet.a18bb007.png",
   "static/media/color-palete-removed.png": "/static/media/color-palete-removed.4c2bb84c.png",
-  "static/css/main.ea9593df.chunk.css.map": "/static/css/main.ea9593df.chunk.css.map",
+  "static/css/main.fa20c7b7.chunk.css.map": "/static/css/main.fa20c7b7.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.a9eed77efb78d3d2d99a0874491785b0.js": "/precache-manifest.a9eed77efb78d3d2d99a0874491785b0.js",
+  "precache-manifest.ee29a00ebc90d569522bd9572e7cf0c8.js": "/precache-manifest.ee29a00ebc90d569522bd9572e7cf0c8.js",
   "service-worker.js": "/service-worker.js"
 }
