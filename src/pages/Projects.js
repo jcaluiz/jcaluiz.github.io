@@ -40,14 +40,14 @@ export default function Projects() {
                                     <div className="contentBx">
                                         <h2 id='project-title'>{project.title}</h2>
                                         <div id='buttons-project-container'>
-                                            <a href={project.hrefGitHub} target="_blank">
+                                            <a href={project.hrefGitHub} className="btn-project-cursor" target="_blank">
                                                 <div className="box-3">
                                                     <div className="btn-project btn-three">
                                                         <span>PÁGINA DO GITHUB</span>
                                                     </div>
                                                 </div>
                                             </a>
-                                            <a href={project.hrefPage} target="_blank">
+                                            <a href={project.hrefPage} className="btn-project-cursor" target="_blank">
                                                 <div className="box-3">
                                                     <div className="btn-project btn-three">
                                                         <span>PÁGINA DO PROJETO</span>

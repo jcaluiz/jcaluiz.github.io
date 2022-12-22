@@ -550,6 +550,9 @@ body{
 	cursor: pointer;
 }
 
+.btn-project-cursor:hover {
+  cursor: pointer;
+}
 
 /* 
 ========================
