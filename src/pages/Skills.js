@@ -56,6 +56,7 @@ export default function Skills() {
                             <ul>
                                 <li>Node.js</li>
                                 <li>MySQL</li>
+                                <li>MongoDB</li>
                                 <li>Docker</li>
                                 <li>TypeScript</li>
                                 <li>API REST</li>
