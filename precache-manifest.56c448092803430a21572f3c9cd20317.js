@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8fb05f1c1d239bfa657e",
-    "url": "/static/css/main.fa20c7b7.chunk.css"
+    "revision": "acdfd68c5c162c22a5fc",
+    "url": "/static/css/main.a2904384.chunk.css"
   },
   {
-    "revision": "8fb05f1c1d239bfa657e",
-    "url": "/static/js/main.8fb05f1c.chunk.js"
+    "revision": "acdfd68c5c162c22a5fc",
+    "url": "/static/js/main.acdfd68c.chunk.js"
   },
   {
-    "revision": "b9328e34c49a0256f6c3",
-    "url": "/static/js/1.b9328e34.chunk.js"
+    "revision": "196a9d2ff2d92368324f",
+    "url": "/static/js/1.196a9d2f.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -48,7 +48,23 @@ self.__precacheManifest = [
     "url": "/static/media/color-palete-removed.4c2bb84c.png"
   },
   {
-    "revision": "0a26dbdc56ff72a31e4eadda24d3dde8",
+    "revision": "9040dc335155ee57f54082a749056401",
+    "url": "/static/media/todo-list.9040dc33.jpeg"
+  },
+  {
+    "revision": "f339d2fea02aead0c0cd543086178e74",
+    "url": "/static/media/letter-final.f339d2fe.png"
+  },
+  {
+    "revision": "693d34a128034a9332c51dbda07b07de",
+    "url": "/static/media/meme-generate.693d34a1.png"
+  },
+  {
+    "revision": "e9937229a4c5820ed7a60f122f827614",
+    "url": "/static/media/color-guess.e9937229.png"
+  },
+  {
+    "revision": "6f922e272dd30e08a99633e270b08e92",
     "url": "/index.html"
   }
 ];
