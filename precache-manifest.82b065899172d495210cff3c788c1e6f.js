@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "53963f91a56c5353e893",
-    "url": "/static/css/main.a2904384.chunk.css"
+    "revision": "5f6df589a5ae1d6d9435",
+    "url": "/static/css/main.876838ab.chunk.css"
   },
   {
-    "revision": "53963f91a56c5353e893",
-    "url": "/static/js/main.53963f91.chunk.js"
+    "revision": "5f6df589a5ae1d6d9435",
+    "url": "/static/js/main.5f6df589.chunk.js"
   },
   {
-    "revision": "196a9d2ff2d92368324f",
-    "url": "/static/js/1.196a9d2f.chunk.js"
+    "revision": "68d31570b26e3a5063b4",
+    "url": "/static/js/1.68d31570.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -64,7 +64,15 @@ self.__precacheManifest = [
     "url": "/static/media/color-guess.e9937229.png"
   },
   {
-    "revision": "aacd03781de6e87d04e74322433e6965",
+    "revision": "bc01fc7d7d736c7b0e893a8ef22ef16b",
+    "url": "/static/media/talker-manager.bc01fc7d.jpg"
+  },
+  {
+    "revision": "0f1b26b7d1f68ab87ae940f03dc0ca33",
+    "url": "/static/media/store-manager.0f1b26b7.png"
+  },
+  {
+    "revision": "7e907347af1caba73514986479278a10",
     "url": "/index.html"
   }
 ];
