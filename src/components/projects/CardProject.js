@@ -55,7 +55,7 @@ const projects = [
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação cuja a 
         finalidade é de ser uma lista de tarefas em que é possível mostrar como finalizado a tarefa
         ao clicar duas vezes, traçando o texto.`,
-        hrefPage: 'https://jcaluiz.github.io/project-pixel-art/',
+        hrefPage: 'https://jcaluiz.github.io/project-todo-list/',
         hrefGitHub: 'https://jcaluiz.github.io/project-todo-list/',
         underDevelopment: true,
     },
