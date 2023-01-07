@@ -1,7 +1,7 @@
 body {
   background: linear-gradient(-45deg, #ee7752, #b18f9c, #23a6d5, #23d5ab) no-repeat;
   background-size: 300% 300%;
-  height: 160vh;
+  height: 100%;
   animation: gradient 10s ease-in-out infinite;
   color: white;
 }
@@ -10,8 +10,28 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 160vh;
+  height: 100%;
 }
+
+.info-image-container {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.info-image {
+  /* background-color: white; */
+  width: 10%;
+  position: relative;
+  filter: invert(90%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.info-text-container {
+  position: relative;
+  padding: 20px;
+}
+
 
 @keyframes gradient {
   0% {
@@ -627,6 +647,10 @@ body{
 
 li {
   list-style: none;
+}
+
+#select-project {
+  width: 20%;
 }
 
 /*------------------------------------------------ */

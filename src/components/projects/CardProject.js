@@ -6,9 +6,12 @@ import misteryLetter from '../../images/projects/letter-final.png';
 import memeGenerate from '../../images/projects/meme-generate.png';
 import colorGuess from '../../images/projects/color-guess.png';
 import shoppingCart from '../../images/projects/shopping-cart.png';
+import talkerManager from '../../images/projects/talker-manager.jpg';
+import storeManager from '../../images/projects/store-manager.png';
 
 const projects = [
     {
+        id: 0,
         image: starWars,
         title: 'Projeto Star Wars Search',
         text: `Neste projeto de front-end feito em React.js foi desenvolvido
@@ -16,8 +19,10 @@ const projects = [
         hrefPage: 'https://jcaluiz.github.io/Project-StartWars-Planet-Search/',
         hrefGitHub: 'https://github.com/jcaluiz/Project-StartWars-Planet-Search',
         underDevelopment: false,
+        developmentType: 'Front-End',
     },
     {
+        id: 1,
         image: trybewallet,
         title: 'Projeto TrybeWallet',
         text: `Neste projeto de front-end feito em React.js foi desenvolvido
@@ -27,8 +32,10 @@ const projects = [
         hrefPage: 'https://jcaluiz.github.io/project-trybewallet/',
         hrefGitHub: 'https://github.com/jcaluiz/project-trybewallet/',
         underDevelopment: false,
+        developmentType: 'Front-End',
     },
     {
+        id: 2,
         image: colorPalette,
         title: 'Projeto Pixel Art',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação cuja a 
@@ -39,8 +46,10 @@ const projects = [
         hrefPage: 'https://jcaluiz.github.io/project-pixel-art/',
         hrefGitHub: 'https://github.com/jcaluiz/project-pixel-art/',
         underDevelopment: false,
+        developmentType: 'Front-End',
     },
     {
+        id: 3,
         image: shoppingCart,
         title: 'Projeto Shopping Cart',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação de 
@@ -48,8 +57,36 @@ const projects = [
         hrefPage: 'https://jcaluiz.github.io/project-shopping-cart/',
         hrefGitHub: 'https://github.com/jcaluiz/project-shopping-cart',
         underDevelopment: false,
+        developmentType: 'Front-End',
     },
     {
+        id: 4,
+        image: talkerManager,
+        title: 'Projeto Talker Manager',
+        text: `Neste projeto de back-end feito em Node.js foi desenvolvido uma aplicação 
+        de cadastro de talkers (palestrantes) em que é possível cadastrar, visualizar, 
+        pesquisar, editar e excluir informações.`,
+        hrefPage: null,
+        hrefGitHub: 'https://github.com/jcaluiz/project-talker-manager',
+        underDevelopment: false,
+        developmentType: 'Back-end',
+    },
+    {
+        id: 5,
+        image: storeManager,
+        title: 'Projeto Store Manager',
+        text: `Neste projeto de back-end feito em Node.js foi desenvolvido minha primeira 
+        API utilizando a arquitetura MSC (model-service-controller). A API é um sistema 
+        de gerenciamento de vendas no formato dropshipping em que é possível criar, visualizar, 
+        deletar e atualizar produtos e vendas. É utilizado o banco de dados MySQL para a 
+        gestão de dados. Além disso, a API é RESTful.`,
+        hrefPage: null,
+        hrefGitHub: 'https://github.com/jcaluiz/project-store-manager',
+        underDevelopment: false,
+        developmentType: 'Back-end',
+    },
+    {
+        id: 6,
         image: todoList,
         title: 'Projeto To Do List',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação cuja a 
@@ -58,8 +95,10 @@ const projects = [
         hrefPage: 'https://jcaluiz.github.io/project-todo-list/',
         hrefGitHub: 'https://jcaluiz.github.io/project-todo-list/',
         underDevelopment: true,
+        developmentType: 'Front-End',
     },
     {
+        id: 7,
         image: misteryLetter,
         title: 'Projeto Mistery Letter',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação cuja a 
@@ -67,8 +106,10 @@ const projects = [
         hrefPage: 'https://jcaluiz.github.io/project-mistery-letter/',
         hrefGitHub: 'https://github.com/jcaluiz/project-mistery-letter',
         underDevelopment: true,
+        developmentType: 'Front-End',
     },
     {
+        id: 8,
         image: memeGenerate,
         title: 'Projeto Meme Generator',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação cuja a 
@@ -76,8 +117,10 @@ const projects = [
         hrefPage: 'https://jcaluiz.github.io/project-meme-generator/',
         hrefGitHub: 'https://github.com/jcaluiz/project-meme-generator',
         underDevelopment: true,
+        developmentType: 'Front-End',
     },
     {
+        id: 9,
         image: colorGuess,
         title: 'Projeto Color Guess',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação de jogo 
@@ -85,6 +128,7 @@ const projects = [
         hrefPage: 'https://jcaluiz.github.io/project-color-guess/',
         hrefGitHub: 'https://github.com/jcaluiz/project-color-guess',
         underDevelopment: true,
+        developmentType: 'Front-End',
     },
 ];
 
