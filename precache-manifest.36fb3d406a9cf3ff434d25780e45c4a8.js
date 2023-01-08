@@ -1,19 +1,47 @@
 self.__precacheManifest = [
   {
-    "revision": "5f6df589a5ae1d6d9435",
-    "url": "/static/css/main.876838ab.chunk.css"
+    "revision": "04b5d294782d50065a94",
+    "url": "/static/css/main.cba44ef4.chunk.css"
   },
   {
-    "revision": "5f6df589a5ae1d6d9435",
-    "url": "/static/js/main.5f6df589.chunk.js"
+    "revision": "04b5d294782d50065a94",
+    "url": "/static/js/main.04b5d294.chunk.js"
   },
   {
-    "revision": "68d31570b26e3a5063b4",
-    "url": "/static/js/1.68d31570.chunk.js"
+    "revision": "bd5b88a514fd2e9534d2",
+    "url": "/static/js/1.bd5b88a5.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
+  },
+  {
+    "revision": "75e4d6d5a0f6b8f4e4030f9b00511ca7",
+    "url": "/static/media/css.75e4d6d5.png"
+  },
+  {
+    "revision": "5d6cd40c005b34535bc97755c8e54d24",
+    "url": "/static/media/html5.5d6cd40c.png"
+  },
+  {
+    "revision": "63cf9c6f8153aef1e884b7ae2815e06d",
+    "url": "/static/media/js.63cf9c6f.png"
+  },
+  {
+    "revision": "facbfa0ac9600974c2b82f844caeef2b",
+    "url": "/static/media/eslint.facbfa0a.png"
+  },
+  {
+    "revision": "bc9b5e17e2b4cb983face49acbea7b00",
+    "url": "/static/media/expressJS.bc9b5e17.png"
+  },
+  {
+    "revision": "55e83371dbf50a5f027b1fe31a054ad3",
+    "url": "/static/media/nodejs.55e83371.png"
+  },
+  {
+    "revision": "be3668f7ecbe460befcb22b9a8a87792",
+    "url": "/static/media/react.be3668f7.png"
   },
   {
     "revision": "bbb56b2642d221abcce52672a7a39ef6",
@@ -72,7 +100,27 @@ self.__precacheManifest = [
     "url": "/static/media/store-manager.0f1b26b7.png"
   },
   {
-    "revision": "7e907347af1caba73514986479278a10",
+    "revision": "efd22267efa1c9589fe5611454dfe821",
+    "url": "/static/media/mysql.efd22267.png"
+  },
+  {
+    "revision": "4912f6d800e1b75354e0b5d4794e1856",
+    "url": "/static/media/Redux.4912f6d8.png"
+  },
+  {
+    "revision": "dd86f15770b3ce2c82af647f4a76bd87",
+    "url": "/static/media/arquitetura-de-software.dd86f157.jpg"
+  },
+  {
+    "revision": "38c54f382358b7cc774f2afc59312a8d",
+    "url": "/static/media/context-api.38c54f38.png"
+  },
+  {
+    "revision": "e782930816423edf263790d85144fc59",
+    "url": "/static/media/docker.e7829308.png"
+  },
+  {
+    "revision": "6c0d318f0dbf1cbdebbe94ff60ed9210",
     "url": "/index.html"
   }
 ];
