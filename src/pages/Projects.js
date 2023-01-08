@@ -56,6 +56,13 @@ export default function Projects() {
                                         {infoActive[project.id] ? (
                                             <div className='info-text-container'>
                                                 <p>{project.text}</p>
+                                                <div className='stack-icon-container'>
+                                                    {
+                                                        project.stacks.map((icon) => (
+                                                            <img src={icon} className='stack-icon' />
+                                                        ))
+                                                    }
+                                                </div>
                                             </div>
                                         ) : (
                                             <>

@@ -8,6 +8,25 @@ import colorGuess from '../../images/projects/color-guess.png';
 import shoppingCart from '../../images/projects/shopping-cart.png';
 import talkerManager from '../../images/projects/talker-manager.jpg';
 import storeManager from '../../images/projects/store-manager.png';
+import contextAPI from '../../images/icons/stacks/context-api.png';
+import cssIcon from '../../images/icons/stacks/css.png';
+import dockerIcon from '../../images/icons/stacks/docker.png';
+import expressIcon from '../../images/icons/stacks/expressJS.png';
+import htmlIcon from '../../images/icons/stacks/html5.png';
+import jsIcon from '../../images/icons/stacks/js.png';
+// import jwtIcon from '../../images/icons/stacks/jwt.png';
+// import mongodbIcon from '../../images/icons/stacks/Mongo-DB.jpg';
+import mysqlIcon from '../../images/icons/stacks/mysql.png';
+import nodeIcon from '../../images/icons/stacks/nodejs.png';
+// import pooIcon from '../../images/icons/stacks/POO.jpg';
+import reactIcon from '../../images/icons/stacks/react.png';
+import reduxIcon from '../../images/icons/stacks/Redux.png';
+// import restApiIcon from '../../images/icons/stacks/REST-API-icon.jpg';
+// import sequelizeIcon from '../../images/icons/stacks/sequelize-logo.png';
+// import typescriptIcon from '../../images/icons/stacks/typescript.png';
+import eslintIcon from '../../images/icons/stacks/eslint.png';
+import bootstrapIcon from '../../images/icons/stacks/bootstrap.png';
+import arquiteturaIcon from '../../images/icons/stacks/arquitetura-de-software.jpg';
 
 const projects = [
     {
@@ -20,6 +39,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/Project-StartWars-Planet-Search',
         underDevelopment: false,
         developmentType: 'Front-End',
+        stacks: [reactIcon, cssIcon, bootstrapIcon, eslintIcon],
     },
     {
         id: 1,
@@ -33,6 +53,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/project-trybewallet/',
         underDevelopment: false,
         developmentType: 'Front-End',
+        stacks: [reactIcon, cssIcon, bootstrapIcon, eslintIcon, reduxIcon],
     },
     {
         id: 2,
@@ -47,6 +68,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/project-pixel-art/',
         underDevelopment: false,
         developmentType: 'Front-End',
+        stacks: [htmlIcon, jsIcon, cssIcon],
     },
     {
         id: 3,
@@ -58,6 +80,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/project-shopping-cart',
         underDevelopment: false,
         developmentType: 'Front-End',
+        stacks: [htmlIcon, jsIcon, cssIcon],
     },
     {
         id: 4,
@@ -70,6 +93,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/project-talker-manager',
         underDevelopment: false,
         developmentType: 'Back-end',
+        stacks: [nodeIcon, expressIcon, eslintIcon],
     },
     {
         id: 5,
@@ -84,6 +108,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/project-store-manager',
         underDevelopment: false,
         developmentType: 'Back-end',
+        stacks: [nodeIcon, expressIcon, mysqlIcon, eslintIcon, arquiteturaIcon],
     },
     {
         id: 6,
@@ -96,6 +121,7 @@ const projects = [
         hrefGitHub: 'https://jcaluiz.github.io/project-todo-list/',
         underDevelopment: true,
         developmentType: 'Front-End',
+        stacks: [htmlIcon, jsIcon, cssIcon],
     },
     {
         id: 7,
@@ -107,6 +133,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/project-mistery-letter',
         underDevelopment: true,
         developmentType: 'Front-End',
+        stacks: [htmlIcon, jsIcon, cssIcon],
     },
     {
         id: 8,
@@ -118,6 +145,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/project-meme-generator',
         underDevelopment: true,
         developmentType: 'Front-End',
+        stacks: [htmlIcon, jsIcon, cssIcon],
     },
     {
         id: 9,
@@ -129,6 +157,7 @@ const projects = [
         hrefGitHub: 'https://github.com/jcaluiz/project-color-guess',
         underDevelopment: true,
         developmentType: 'Front-End',
+        stacks: [htmlIcon, jsIcon, cssIcon],
     },
 ];
 
