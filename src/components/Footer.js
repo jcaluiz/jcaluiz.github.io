@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <p>
                 Criado por Luiz Alberto Carreiro Junior - 
-                Desenvolvedor Full-Stack
+                Desenvolvedor Full-Stack - Copyright © 2023
             </p>
         </footer>
     )

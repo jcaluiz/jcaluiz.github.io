@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Profile from './pages/Profile';
 import './App.css';
+// import './styles/Profile.scss'
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';

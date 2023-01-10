@@ -26,7 +26,7 @@ import reduxIcon from '../../images/icons/stacks/Redux.png';
 // import typescriptIcon from '../../images/icons/stacks/typescript.png';
 import eslintIcon from '../../images/icons/stacks/eslint.png';
 import bootstrapIcon from '../../images/icons/stacks/bootstrap.png';
-import arquiteturaIcon from '../../images/icons/stacks/arquitetura-de-software.jpg';
+import arquiteturaIcon from '../../images/icons/stacks/arquitetura-de-software.png';
 
 const projects = [
     {
@@ -99,11 +99,10 @@ const projects = [
         id: 5,
         image: storeManager,
         title: 'Projeto Store Manager',
-        text: `Neste projeto de back-end feito em Node.js foi desenvolvido minha primeira 
-        API utilizando a arquitetura MSC (model-service-controller). A API é um sistema 
+        text: `Neste projeto de back-end em Node.js foi desenvolvido uma 
+        API utilizando a arquitetura MSC. A API é um sistema 
         de gerenciamento de vendas no formato dropshipping em que é possível criar, visualizar, 
-        deletar e atualizar produtos e vendas. É utilizado o banco de dados MySQL para a 
-        gestão de dados. Além disso, a API é RESTful.`,
+        deletar e atualizar produtos e vendas utilizando o banco de dados MySQL.`,
         hrefPage: null,
         hrefGitHub: 'https://github.com/jcaluiz/project-store-manager',
         underDevelopment: false,
