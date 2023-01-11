@@ -538,9 +538,9 @@ footer {
   }
 }
 
-#minha-foto {
-  height: 30%;
-  width: 32%;
+.minha-foto {
+  height: 100%;
+  width: 125%;
   z-index: 1;
   background-image: conic-gradient(from var(--border-angle), rgb(50, 15, 85), rgb(99, 38, 160) 50%, rgb(46, 24, 70)), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
   background-position: center center;
@@ -554,8 +554,15 @@ footer {
   padding: 1%;
 }
 
-#minha-foto:hover {
-  transform: scale(1.1);
+.minha-foto-link {
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.minha-foto-link:hover {
+  transform: scale(1.01);
   cursor: pointer;
 }
 
@@ -1197,7 +1204,7 @@ li {
   .introduction-img-container img {
     object-fit: cover;
     background-size: cover;
-    height: 50%;
+    height: 65%;
   }
 
   #header-container {
@@ -1278,10 +1285,10 @@ li {
     gap: 30px;
   }
 
-  #minha-foto {
-    margin-left: 25%;
+  .minha-foto {
+    /* margin-left: 13%; */
     padding-top: 3%;
-    width: 50%;
+    width: 60%;
     margin-top: 5%;
   }
 

@@ -32,15 +32,15 @@ import PortfolioContext from '../context/PortfolioContext';
 
 export default function Profile() {
     const skills = [htmlIcon, cssIcon, jsIcon, typescriptIcon,
-        reactIcon, reduxIcon, contextAPI, nodeIcon, expressIcon, dockerIcon, 
+        reactIcon, reduxIcon, contextAPI, nodeIcon, expressIcon, dockerIcon,
         mysqlIcon, mongodbIcon, sequelizeIcon, jwtIcon, restApiIcon, arquiteturaIcon,
         pooIcon, bootstrapIcon, eslintIcon];
-    
-        const {activeMenu} = useContext(PortfolioContext);
 
-    const skillsName = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React.js', 'Redux.js', 
-    'Context API', 'Node.js', 'Express.js', 'Docker', 'MySQL', 'MongoDB', 'Sequelize.js',
-    'JSON Web Token', 'REST API', 'MSC', 'POO', 'Bootstrap', 'EsLint'];
+    const { activeMenu } = useContext(PortfolioContext);
+
+    const skillsName = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React.js', 'Redux.js',
+        'Context API', 'Node.js', 'Express.js', 'Docker', 'MySQL', 'MongoDB', 'Sequelize.js',
+        'JSON Web Token', 'REST API', 'MSC', 'POO', 'Bootstrap', 'EsLint'];
 
     return (
         <>
@@ -67,15 +67,19 @@ export default function Profile() {
                 </div>
                 <div id='about-carousel-container'>
                     <div id='about-profile'>
-                    {!activeMenu && <img src={minhaFoto} alt='minha foto' id='minha-foto' />}
+                        {!activeMenu && (
+                            <a href="https://github.com/jcaluiz" target="_blank" className='minha-foto-link' rel='noreferrer'>
+                                <img src={minhaFoto} onClick alt='minha foto' className='minha-foto' />
+                            </a>
+                        )}
                         <div className='about-me-profile'>
                             <h2 id='about-title'>SOBRE MIM</h2>
                             <p>
-                                Olá! É um prazer te receber em meu portfólio. Tenho 29 anos, sou  graduado em Economia 
-                                e tornei-me Desenvolvedor Web Full-Stack estudando durante um ano na Trybe. 
+                                Olá! É um prazer te receber em meu portfólio. Tenho 29 anos, sou  graduado em Economia
+                                e tornei-me Desenvolvedor Web Full-Stack estudando durante um ano na Trybe.
                                 Ganhei experiência com diversos projetos na Trybe e em projetos open-source.
-                                Desenvolvo com diversas tecnologias e uma coisa que pude aprender durante a 
-                                minha vida é aprender a aprender e gostar de aprender, esse último me motiva 
+                                Desenvolvo com diversas tecnologias e uma coisa que pude aprender durante a
+                                minha vida é aprender a aprender e gostar de aprender, esse último me motiva
                                 porque aprender é uma coisa que me fascina. Sou apaixonado em programar.
                             </p>
                         </div>
