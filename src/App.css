@@ -87,9 +87,9 @@ body {
 }
 
 #header-container {
+  /* width: 120px; */
   display: flex;
   justify-content: space-between;
-  width: 120px;
 }
 
 #header-elements-container {
@@ -946,8 +946,10 @@ li {
   }
 
   #header-container {
-      width: 70%;
+      width: 90%;
       height: 100%;
+      padding-top: 2%;
+      justify-content: center;
   }
 
   #imagem-perfil {
@@ -977,17 +979,23 @@ li {
     flex-direction: column;
     position:relative;
     /* border: red solid 2px; */
-    width: 50%;
-    height: 50px;
-    gap: 100px;
+    width: 1000%;
+    height: 1000%;
     text-decoration: none;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    margin-right: 200%;
+    background-color: black;
+    gap: 15%;
+    padding-top: 180%;
+    margin-top: 20%;
+    background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
   }
 
   .button-header {
     position:relative;
     font-weight: 700;
+    text-shadow: 0.5px 0.5px 0.5px white;
   }
 
   .menu-buttons-container {
@@ -1004,21 +1012,19 @@ li {
     display: flex;
     position:relative;
     flex-direction: column;
-    /* align-items: center; */
-    gap: 30px;
-    /* padding-left: 1%; */
+    gap: 40px;
   }
 
-  /* #about-profile img {
-    padding-left: 20%;
-  } */
-
   .about-me-profile {
-    width: 85%;
+    width: 105%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 
   #minha-foto {
-    margin-left: 20%;
+    margin-left: 30%;
+    padding-top: 3%;
     width: 40%;
   }
 
@@ -1028,7 +1034,7 @@ li {
   }
 
   #about-profile h2 {
-    font-size: 50px;
+    font-size: 37px
   }
 
   .introduction-container {
@@ -1087,5 +1093,9 @@ li {
   
   .forms-container {
     width: 80%;
+  }
+  
+  .about-me-profile p {
+    text-align: center;
   }
 }
