@@ -1,11 +1,12 @@
 body {
   background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
   background-position: center center;
-    background-repeat: no-repeat;
-    animation: bg-spin 3s linear infinite;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
   height: 100%;
   animation: gradient 10s ease-in-out infinite;
   color: white;
+  scroll-behavior: inherit;
 }
 
 
@@ -109,7 +110,7 @@ body {
   justify-content: space-between;
 }
 
-#imagem-perfil {
+#imagem-logo {
   width: 100%;
   filter: invert(100%)
 }
@@ -129,9 +130,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  animation-name: moveMain;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
+  /* animation-name: moveMain;
+  animation-duration: 2s; */
+  /* animation-timing-function: ease-in-out; */
   /* gap: 100px; */
   /* padding-left: 40px; */
   /* border: red solid 2px; */
@@ -149,7 +150,7 @@ body {
   /* flex-wrap: wrap; */
   width: 83, 5rem;
   /* border: blue solid 2px; */
-  height: 12rem;
+  height: 17rem;
   justify-content: fle;
   align-items: flex-start;
   padding-top: 100px;
@@ -173,65 +174,281 @@ body {
 
 /* Typewriter effect 1 */
 @keyframes typing {
-  0.0000%, 23.0000% { content: ""; }
-  1.0000%, 22.0000% { content: "L"; }
-  2.0000%, 21.0000% { content: "Lu"; }
-  3.0000%, 20.0000% { content: "Lui"; }
-  4.0000%, 19.0000% { content: "Luiz"; }
-  5.0000%, 18.0000% { content: "Luiz "; }
-  6.0000%, 17.0000% { content: "Luiz J"; }
-  7.0000%, 16.0000% { content: "Luiz Ju"; }
-  8.0000%, 15.0000% { content: "Luiz Jun"; }
-  9.0000%, 14.0000% { content: "Luiz Juni"; }
-  10.0000%, 13.0000% { content: "Luiz Junio"; }
-  11.0000%, 12.0000% { content: "Luiz Junior"; }
 
-  24%, 49% { content: ""; }
-  25%, 48% { content: "D"; }
-  26%, 47% { content: "De"; }
-  27%, 46% { content: "Des"; }
-  28%, 45% { content: "Desen"; }
-  29%, 44% { content: "Desenv"; }
-  30%, 43% { content: "Desenvo"; }
-  31%, 42% { content: "Desenvol"; }
-  32%, 41% { content: "Desenvolv"; }
-  33%, 40% { content: "Desenvolve"; }
-  34%, 39% { content: "Desenvolved"; }
-  35%, 38% { content: "Desenvolvedo"; }
-  36%, 37% { content: "Desenvolvedor"; }
+  0.0000%,
+  23.0000% {
+    content: "";
+  }
 
-  50%, 69% { content: ""; }
-  51%, 68% { content: "F"; }
-  52%, 67% { content: "Fr"; }
-  53%, 66% { content: "Fro"; }
-  54%, 65% { content: "Fron"; }
-  55%, 64% { content: "Front"; }
-  56%, 63% { content: "Front-"; }
-  57%, 62% { content: "Front-E"; }
-  58%, 61% { content: "Front-En"; }
-  59%, 60% { content: "Front-End"; }
+  1.0000%,
+  22.0000% {
+    content: "L";
+  }
 
-  70%, 87% { content: ""; }
-  71%, 86% { content: "B"; }
-  72%, 85% { content: "Ba"; }
-  73%, 84% { content: "Bac"; }
-  74%, 83% { content: "Back"; }
-  75%, 82% { content: "Back-"; }
-  76%, 81% { content: "Back-E"; }
-  77%, 80% { content: "Back-En"; }
-  78%, 79% { content: "Back-End"; }
+  2.0000%,
+  21.0000% {
+    content: "Lu";
+  }
 
-  88.5%, 99% { content: ""; }
-  89%, 98.5% { content: "F"; }
-  89.5%, 98% { content: "Fu"; }
-  90%, 97.5% { content: "Ful"; }
-  90.5%, 97% { content: "Full"; }
-  91%, 96.5% { content: "Full-"; }
-  91.5%, 96% { content: "Full-S"; }
-  92%, 95.5% { content: "Full-St"; }
-  92.5%, 95% { content: "Full-Sta"; }
-  93%, 94.5% { content: "Full-Stac"; }
-  93.5%, 94% { content: "Full-Stack"; }
+  3.0000%,
+  20.0000% {
+    content: "Lui";
+  }
+
+  4.0000%,
+  19.0000% {
+    content: "Luiz";
+  }
+
+  5.0000%,
+  18.0000% {
+    content: "Luiz ";
+  }
+
+  6.0000%,
+  17.0000% {
+    content: "Luiz J";
+  }
+
+  7.0000%,
+  16.0000% {
+    content: "Luiz Ju";
+  }
+
+  8.0000%,
+  15.0000% {
+    content: "Luiz Jun";
+  }
+
+  9.0000%,
+  14.0000% {
+    content: "Luiz Juni";
+  }
+
+  10.0000%,
+  13.0000% {
+    content: "Luiz Junio";
+  }
+
+  11.0000%,
+  12.0000% {
+    content: "Luiz Junior";
+  }
+
+  24%,
+  49% {
+    content: "";
+  }
+
+  25%,
+  48% {
+    content: "D";
+  }
+
+  26%,
+  47% {
+    content: "De";
+  }
+
+  27%,
+  46% {
+    content: "Des";
+  }
+
+  28%,
+  45% {
+    content: "Desen";
+  }
+
+  29%,
+  44% {
+    content: "Desenv";
+  }
+
+  30%,
+  43% {
+    content: "Desenvo";
+  }
+
+  31%,
+  42% {
+    content: "Desenvol";
+  }
+
+  32%,
+  41% {
+    content: "Desenvolv";
+  }
+
+  33%,
+  40% {
+    content: "Desenvolve";
+  }
+
+  34%,
+  39% {
+    content: "Desenvolved";
+  }
+
+  35%,
+  38% {
+    content: "Desenvolvedo";
+  }
+
+  36%,
+  37% {
+    content: "Desenvolvedor";
+  }
+
+  50%,
+  69% {
+    content: "";
+  }
+
+  51%,
+  68% {
+    content: "F";
+  }
+
+  52%,
+  67% {
+    content: "Fr";
+  }
+
+  53%,
+  66% {
+    content: "Fro";
+  }
+
+  54%,
+  65% {
+    content: "Fron";
+  }
+
+  55%,
+  64% {
+    content: "Front";
+  }
+
+  56%,
+  63% {
+    content: "Front-";
+  }
+
+  57%,
+  62% {
+    content: "Front-E";
+  }
+
+  58%,
+  61% {
+    content: "Front-En";
+  }
+
+  59%,
+  60% {
+    content: "Front-End";
+  }
+
+  70%,
+  87% {
+    content: "";
+  }
+
+  71%,
+  86% {
+    content: "B";
+  }
+
+  72%,
+  85% {
+    content: "Ba";
+  }
+
+  73%,
+  84% {
+    content: "Bac";
+  }
+
+  74%,
+  83% {
+    content: "Back";
+  }
+
+  75%,
+  82% {
+    content: "Back-";
+  }
+
+  76%,
+  81% {
+    content: "Back-E";
+  }
+
+  77%,
+  80% {
+    content: "Back-En";
+  }
+
+  78%,
+  79% {
+    content: "Back-End";
+  }
+
+  88.5%,
+  99% {
+    content: "";
+  }
+
+  89%,
+  98.5% {
+    content: "F";
+  }
+
+  89.5%,
+  98% {
+    content: "Fu";
+  }
+
+  90%,
+  97.5% {
+    content: "Ful";
+  }
+
+  90.5%,
+  97% {
+    content: "Full";
+  }
+
+  91%,
+  96.5% {
+    content: "Full-";
+  }
+
+  91.5%,
+  96% {
+    content: "Full-S";
+  }
+
+  92%,
+  95.5% {
+    content: "Full-St";
+  }
+
+  92.5%,
+  95% {
+    content: "Full-Sta";
+  }
+
+  93%,
+  94.5% {
+    content: "Full-Stac";
+  }
+
+  93.5%,
+  94% {
+    content: "Full-Stack";
+  }
 }
 
 .introduction-h1 {
@@ -241,8 +458,15 @@ body {
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
 
 .typewriter {
@@ -274,12 +498,25 @@ body {
   .typewriter::after {
     animation: none;
   }
-  
+
   @keyframes sequencePopup {
-    0%, 100% { content: "developer"; }
-    25% { content: "writer"; }
-    50% { content: "reader"; }
-    75% { content: "human"; }
+
+    0%,
+    100% {
+      content: "developer";
+    }
+
+    25% {
+      content: "writer";
+    }
+
+    50% {
+      content: "reader";
+    }
+
+    75% {
+      content: "human";
+    }
   }
 
   .typewriter::before {
@@ -303,9 +540,23 @@ footer {
 
 #minha-foto {
   height: 30%;
-  width: 30%;
-  animation: is-bouncing 2s ease-in-out alternate infinite;
-  position: static;
+  width: 32%;
+  z-index: 1;
+  background-image: conic-gradient(from var(--border-angle), rgb(50, 15, 85), rgb(99, 38, 160) 50%, rgb(46, 24, 70)), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
+  animation: gradient 10s ease-in-out infinite;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 60%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 25%;
+  padding: 1%;
+}
+
+#minha-foto:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .logo-social {
@@ -516,6 +767,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 3;
 }
 
 footer {
@@ -606,8 +858,8 @@ body{
   overflow: hidden;
   background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
   background-position: center center;
-    background-repeat: no-repeat;
-    animation: bg-spin 3s linear infinite;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
 
 }
 
@@ -895,11 +1147,13 @@ li {
 }
 
 @keyframes neon {
+
   0%,
   100% {
     text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
     color: #FED128;
   }
+
   50% {
     text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
     color: #806914;
@@ -923,7 +1177,7 @@ li {
 .project-in-profile .main .main-project {
   width: 123%;
   height: 800px;
-  overflow-y:auto;
+  overflow-y: auto;
 }
 
 .project-in-profile .main .main-project #projects-card .container .card .contentBx .btn-project-cursor .btn-project {
@@ -938,22 +1192,23 @@ li {
 
   .introduction-h1 {
     font-size: 270%;
-}
+  }
 
   .introduction-img-container img {
     object-fit: cover;
     background-size: cover;
+    height: 50%;
   }
 
   #header-container {
-      width: 90%;
-      height: 100%;
-      padding-top: 2%;
-      justify-content: center;
+    width: 90%;
+    height: 100%;
+    padding-top: 2%;
+    justify-content: center;
   }
 
-  #imagem-perfil {
-      width: 80%;
+  #imagem-logo {
+    width: 80%;
   }
 
   .button-header {
@@ -977,12 +1232,13 @@ li {
   #header-buttons-container-mobile {
     display: flex;
     flex-direction: column;
-    position:relative;
+    position: relative;
     /* border: red solid 2px; */
     width: 1000%;
     height: 1000%;
     text-decoration: none;
     align-items: center;
+    z-index: 3000;
     /* justify-content: space-between; */
     margin-right: 200%;
     background-color: black;
@@ -993,7 +1249,7 @@ li {
   }
 
   .button-header {
-    position:relative;
+    position: relative;
     font-weight: 700;
     text-shadow: 0.5px 0.5px 0.5px white;
   }
@@ -1010,7 +1266,7 @@ li {
 
   #about-profile {
     display: flex;
-    position:relative;
+    position: relative;
     flex-direction: column;
     gap: 40px;
   }
@@ -1023,9 +1279,10 @@ li {
   }
 
   #minha-foto {
-    margin-left: 30%;
+    margin-left: 25%;
     padding-top: 3%;
-    width: 40%;
+    width: 50%;
+    margin-top: 5%;
   }
 
   .about-me-profile h2 {
@@ -1051,7 +1308,7 @@ li {
     margin-left: 11%;
     gap: 50px;
   }
-  
+
   .skills-profile-container h2 {
     font-size: 50px;
   }
@@ -1067,7 +1324,7 @@ li {
 
   .skills-profile {
     margin-left: 10%;
-    justify-content:start;
+    justify-content: start;
   }
 
   .main-project {
@@ -1090,12 +1347,19 @@ li {
   #projects-card {
     flex-direction: column;
   }
-  
+
   .forms-container {
     width: 80%;
   }
-  
+
   .about-me-profile p {
     text-align: center;
+  }
+
+  .introduction-h1-container {
+    padding: 80px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 }

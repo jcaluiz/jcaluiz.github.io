@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../styles/Profile.scss';
 import Header from '../components/Header';
 import minhaFoto from '../images/profile/minha-foto.png';
@@ -28,12 +28,15 @@ import eslintIcon from '../images/icons/stacks/eslint.png';
 import bootstrapIcon from '../images/icons/stacks/bootstrap.png';
 import arquiteturaIcon from '../images/icons/stacks/arquitetura-de-software.png';
 import progTecl from '../images/icons/others/programacao-teclado.jpeg';
+import PortfolioContext from '../context/PortfolioContext';
 
 export default function Profile() {
     const skills = [htmlIcon, cssIcon, jsIcon, typescriptIcon,
         reactIcon, reduxIcon, contextAPI, nodeIcon, expressIcon, dockerIcon, 
         mysqlIcon, mongodbIcon, sequelizeIcon, jwtIcon, restApiIcon, arquiteturaIcon,
         pooIcon, bootstrapIcon, eslintIcon];
+    
+        const {activeMenu} = useContext(PortfolioContext);
 
     const skillsName = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React.js', 'Redux.js', 
     'Context API', 'Node.js', 'Express.js', 'Docker', 'MySQL', 'MongoDB', 'Sequelize.js',
@@ -64,7 +67,7 @@ export default function Profile() {
                 </div>
                 <div id='about-carousel-container'>
                     <div id='about-profile'>
-                        <img src={minhaFoto} alt='minha foto' id='minha-foto' />
+                    {!activeMenu && <img src={minhaFoto} alt='minha foto' id='minha-foto' />}
                         <div className='about-me-profile'>
                             <h2 id='about-title'>SOBRE MIM</h2>
                             <p>

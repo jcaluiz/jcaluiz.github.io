@@ -1,25 +1,19 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import perfilImagem from '../images/header/logo-portfolio.png';
-import Button from 'react-bootstrap/Button';
+import React, { useContext } from 'react';
+import logoImagem from '../images/header/logo-portfolio.png';
 import HeaderButtonsActive from './toolsHeader/HeaderButtonsActive';
+import PortfolioContext from '../context/PortfolioContext';
 
 export default function Header() {
-    const [activeMenu, setActiveMenu] = useState(false);
-
-    const sinalActive = () => {
-        setActiveMenu((state) => !state);
-        console.log(activeMenu);
-    }
+    const {activeMenu, setActiveMenu} = useContext(PortfolioContext);
 
     return (
         <header className='header-content-container'>
             <nav id='header-container'>
                 <div id='header-elements-container'>
-                    <img id='imagem-perfil' src={perfilImagem} alt='imagem de perfil' />
+                    <img id='imagem-logo' src={logoImagem} alt='imagem de logo' />
                 </div>
                 <div className='menu-buttons-container'>
-                    <div className='mobile-menu' onClick={() => sinalActive()}>
+                    <div className='mobile-menu' onClick={() => setActiveMenu((state) => !state)}>
                         <div className='line1'></div>
                         <div className='line2'></div>
                         <div className='line3'></div>
