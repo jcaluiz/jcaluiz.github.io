@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3f5d783.css",
-    "main.js": "/static/js/main.9e0c8bef.js",
+    "main.css": "/static/css/main.31218dc3.css",
+    "main.js": "/static/js/main.e6468dda.js",
     "static/media/trybewallet.png": "/static/media/trybewallet.359ce202432a7ff007e2.png",
     "static/media/color-guess.png": "/static/media/color-guess.4cc340f9b68af296bb92.png",
     "static/media/store-manager.png": "/static/media/store-manager.36409ad71ac06795fc87.png",
@@ -10,6 +10,7 @@
     "static/media/minha-foto.png": "/static/media/minha-foto.0b3ca5f93d0d00fd121b.png",
     "static/media/context-api.png": "/static/media/context-api.57b541999b006ec7eb8c.png",
     "static/media/programacao-teclado.jpeg": "/static/media/programacao-teclado.d33cc1025f0218c1bde8.jpeg",
+    "static/media/Pokemon-logo.png": "/static/media/Pokemon-logo.9793dcc245dc93dc98d1.png",
     "static/media/talker-manager.jpg": "/static/media/talker-manager.4596865e29b114eae5c7.jpg",
     "static/media/arquitetura-de-software.png": "/static/media/arquitetura-de-software.fba9fb8dffcc10e8d604.png",
     "static/media/POO.png": "/static/media/POO.0c840d3cecf98482ce9f.png",
@@ -18,7 +19,6 @@
     "static/media/jwt.png": "/static/media/jwt.77866ee6db97c9cb4db5.png",
     "static/media/Mongo-DB.png": "/static/media/Mongo-DB.befdbbb42ba6f8942daa.png",
     "static/media/react.png": "/static/media/react.52de6422409ad1571d1f.png",
-    "static/media/whatsapp.png": "/static/media/whatsapp.29dd41c9009c90f690c6.png",
     "static/media/mysql.png": "/static/media/mysql.9b321b61f1d106598f17.png",
     "static/media/Star_Wars_Logo.svg-removebg-preview.png": "/static/media/Star_Wars_Logo.svg-removebg-preview.41ca6fec9f4dc99fd777.png",
     "static/media/logo-portfolio.png": "/static/media/logo-portfolio.94d84d8092b584c96d24.png",
@@ -26,16 +26,15 @@
     "static/media/context-api-removebg-preview.png": "/static/media/context-api-removebg-preview.bb4dbfe371c98df31c29.png",
     "static/media/sequelize-logo.png": "/static/media/sequelize-logo.a2e50896cb47b52b4af5.png",
     "static/media/REST-API-icon.png": "/static/media/REST-API-icon.08cfcf1fcd213de0872c.png",
-    "static/media/github.png": "/static/media/github.05f6c17b8cd04c28456f.png",
     "static/media/Redux.png": "/static/media/Redux.2e5a21bd27d4dbcb0884.png",
     "static/media/css.png": "/static/media/css.7654ce00c5ac2e76e015.png",
     "static/media/html5.png": "/static/media/html5.31497a13d5b51cea9b7d.png",
     "index.html": "/index.html",
-    "main.f3f5d783.css.map": "/static/css/main.f3f5d783.css.map",
-    "main.9e0c8bef.js.map": "/static/js/main.9e0c8bef.js.map"
+    "main.31218dc3.css.map": "/static/css/main.31218dc3.css.map",
+    "main.e6468dda.js.map": "/static/js/main.e6468dda.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3f5d783.css",
-    "static/js/main.9e0c8bef.js"
+    "static/css/main.31218dc3.css",
+    "static/js/main.e6468dda.js"
   ]
 }
