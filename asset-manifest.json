@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31218dc3.css",
-    "main.js": "/static/js/main.e6468dda.js",
+    "main.js": "/static/js/main.62bf890e.js",
     "static/media/trybewallet.png": "/static/media/trybewallet.359ce202432a7ff007e2.png",
     "static/media/color-guess.png": "/static/media/color-guess.4cc340f9b68af296bb92.png",
     "static/media/store-manager.png": "/static/media/store-manager.36409ad71ac06795fc87.png",
@@ -16,6 +16,7 @@
     "static/media/POO.png": "/static/media/POO.0c840d3cecf98482ce9f.png",
     "static/media/todo-list.jpeg": "/static/media/todo-list.5fce307d55b4b40e0a5c.jpeg",
     "static/media/letter-final.png": "/static/media/letter-final.478122a48c8e71aa4386.png",
+    "static/media/API.png": "/static/media/API.a55e45c12ccf58ce3f6d.png",
     "static/media/jwt.png": "/static/media/jwt.77866ee6db97c9cb4db5.png",
     "static/media/Mongo-DB.png": "/static/media/Mongo-DB.befdbbb42ba6f8942daa.png",
     "static/media/react.png": "/static/media/react.52de6422409ad1571d1f.png",
@@ -31,10 +32,10 @@
     "static/media/html5.png": "/static/media/html5.31497a13d5b51cea9b7d.png",
     "index.html": "/index.html",
     "main.31218dc3.css.map": "/static/css/main.31218dc3.css.map",
-    "main.e6468dda.js.map": "/static/js/main.e6468dda.js.map"
+    "main.62bf890e.js.map": "/static/js/main.62bf890e.js.map"
   },
   "entrypoints": [
     "static/css/main.31218dc3.css",
-    "static/js/main.e6468dda.js"
+    "static/js/main.62bf890e.js"
   ]
 }
