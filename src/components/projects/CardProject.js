@@ -8,6 +8,7 @@ import colorGuess from '../../images/projects/color-guess.png';
 import shoppingCart from '../../images/projects/shopping-cart.png';
 import talkerManager from '../../images/projects/talker-manager.jpg';
 import storeManager from '../../images/projects/store-manager.png';
+import pokemonVue from '../../images/projects/Pokemon-logo.png';
 import contextAPI from '../../images/icons/stacks/context-api.png';
 import cssIcon from '../../images/icons/stacks/css.png';
 import dockerIcon from '../../images/icons/stacks/docker.png';
@@ -25,8 +26,11 @@ import reduxIcon from '../../images/icons/stacks/Redux.png';
 // import sequelizeIcon from '../../images/icons/stacks/sequelize-logo.png';
 // import typescriptIcon from '../../images/icons/stacks/typescript.png';
 import eslintIcon from '../../images/icons/stacks/eslint.png';
+import vueIcon from '../../images/icons/stacks/vue.png';
 import bootstrapIcon from '../../images/icons/stacks/bootstrap.png';
 import arquiteturaIcon from '../../images/icons/stacks/arquitetura-de-software.png';
+import APIImage from '../../images/projects/API.png';
+import PythonImage from '../../images/icons/stacks/Python.png';
 
 const projects = [
     {
@@ -40,6 +44,17 @@ const projects = [
         underDevelopment: false,
         developmentType: 'Front-End',
         stacks: [reactIcon, cssIcon, bootstrapIcon, eslintIcon],
+    },
+    {
+        id: 11,
+        image: APIImage,
+        title: 'API StarWars',
+        text: `Esta é uma API feita em Python com FastAPI para o front-end do Projeto Star Wars Search`,
+        hrefPage: 'https://starwars-api-production.up.railway.app/docs#/planets/list_planets_get_planets_get',
+        hrefGitHub: 'https://github.com/jcaluiz/Project-StartWars-Planet-Search',
+        underDevelopment: false,
+        developmentType: 'Back-end',
+        stacks: [PythonImage],
     },
     {
         id: 1,
@@ -97,6 +112,19 @@ const projects = [
     },
     {
         id: 5,
+        image: pokemonVue,
+        title: 'Projeto Pokemon List',
+        text: `Neste projeto de front-end em Vue.js foi desenvolvido uma 
+        um site que renderiza uma lista de pokemons e que é possível fazer um filtro 
+        através do nome.`,
+        hrefPage: 'https://copybase-desafio-tecnico.vercel.app/',
+        hrefGitHub: 'https://github.com/jcaluiz/Copybase-desafio-tecnico',
+        underDevelopment: false,
+        developmentType: 'Front-end',
+        stacks: [vueIcon, eslintIcon],
+    },
+    {
+        id: 6,
         image: storeManager,
         title: 'Projeto Store Manager',
         text: `Neste projeto de back-end em Node.js foi desenvolvido uma 
@@ -110,7 +138,7 @@ const projects = [
         stacks: [nodeIcon, expressIcon, mysqlIcon, eslintIcon, arquiteturaIcon],
     },
     {
-        id: 6,
+        id: 7,
         image: todoList,
         title: 'Projeto To Do List',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação cuja a 
@@ -123,7 +151,7 @@ const projects = [
         stacks: [htmlIcon, jsIcon, cssIcon],
     },
     {
-        id: 7,
+        id: 8,
         image: misteryLetter,
         title: 'Projeto Mistery Letter',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação cuja a 
@@ -135,7 +163,7 @@ const projects = [
         stacks: [htmlIcon, jsIcon, cssIcon],
     },
     {
-        id: 8,
+        id: 9,
         image: memeGenerate,
         title: 'Projeto Meme Generator',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação cuja a 
@@ -147,7 +175,7 @@ const projects = [
         stacks: [htmlIcon, jsIcon, cssIcon],
     },
     {
-        id: 9,
+        id: 10,
         image: colorGuess,
         title: 'Projeto Color Guess',
         text: `Neste projeto feito em HTML, CSS e JavaScript foi desenvolvido uma aplicação de jogo 
