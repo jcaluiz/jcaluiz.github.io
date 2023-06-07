@@ -20,15 +20,19 @@ import bootstrapIcon from '../images/icons/stacks/bootstrap.png';
 import arquiteturaIcon from '../images/icons/stacks/arquitetura-de-software.png';
 import pythonIcon from '../images/icons/stacks/Python.png';
 import vueIcon from '../images/icons/stacks/vue.png';
+import javaIcon from '../images/icons/stacks/java.svg';
+import nextIcon from '../images/icons/stacks/next.svg';
+import tailwindIcon from '../images/icons/stacks/tailwind.svg';
 import '../styles/components/SkillsComponent.scss';
 
 export default function SkillsComponent() {
-    const skills = [htmlIcon, cssIcon, jsIcon, typescriptIcon, pythonIcon,
-        reactIcon, vueIcon, reduxIcon, contextAPI, nodeIcon, expressIcon, dockerIcon,
+    const skills = [htmlIcon, cssIcon, jsIcon, typescriptIcon, pythonIcon, javaIcon,
+        reactIcon, nextIcon, tailwindIcon, vueIcon, reduxIcon, contextAPI, nodeIcon, expressIcon, dockerIcon,
         mysqlIcon, mongodbIcon, sequelizeIcon, jwtIcon, restApiIcon, arquiteturaIcon,
         pooIcon, bootstrapIcon, eslintIcon];
 
-    const skillsName = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Python', 'React.js', 'Vue.js', 'Redux.js',
+    const skillsName = ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Python', 'Java', 'React.js',
+        'Next.js', 'Tailwind CSS', 'Vue.js', 'Redux.js',
         'Context API', 'Node.js', 'Express.js', 'Docker', 'MySQL', 'MongoDB', 'Sequelize.js',
         'JSON Web Token', 'REST API', 'MSC', 'POO', 'Bootstrap', 'EsLint'];
 

@@ -1,12 +1,12 @@
 body {
-  background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  /* background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03); */
   background-position: center center;
   background-repeat: no-repeat;
-  animation: bg-spin 3s linear infinite;
-  height: 100%;
-  animation: gradient 10s ease-in-out infinite;
+  /* animation: bg-spin 3s linear infinite; */
+  /* height: 100%; */
+  /* animation: gradient 10s ease-in-out infinite; */
   color: white;
-  scroll-behavior: inherit;
+  /* scroll-behavior: inherit; */
 }
 
 
@@ -602,9 +602,9 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 100px;
-  background-color: #fff;
+  /* background-color: #fff; */
   color: #181818;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 #about-profile {
@@ -1043,7 +1043,6 @@ li {
   .skills-profile-container {
     width: 90%;
     align-items: start;
-    margin-left: 11%;
     gap: 50px;
   }
 

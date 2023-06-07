@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import '../styles/Profile.scss';
 import Header from '../components/Header';
 import minhaFoto from '../images/profile/minha-foto.png';
@@ -11,17 +11,22 @@ import ContactComponent from '../components/pagesComponents/ContactComponent';
 import progTecl from '../images/icons/others/programacao-teclado.jpeg';
 import PortfolioContext from '../context/PortfolioContext';
 import SkillsComponent from '../components/SkillsComponent';
+import { ChevronLeft, ChevronRight, Info } from 'lucide-react';
+import Project from '../components/projects/Project';
 
 export default function Profile() {
     const { activeMenu } = useContext(PortfolioContext);
+    const [info, setInfo] = useState(false);
+
+    console.log(info);
 
     return (
         <>
             <Header />
-            <main className='main-profile'>
-                <div class="bg"></div>
-                <div className="more-snow"></div>
-                <div id='first-container'>
+            <main className='w-full flex flex-col bg-slate-500'>
+                {/* <div class="bg"></div>
+                <div className="more-snow"></div> */}
+                <div  className=''>
 
                     <div className='introduction-pic-container'>
                         <div className='introduction-container'>
@@ -38,8 +43,8 @@ export default function Profile() {
                         </div>
                     </div>
                 </div>
-                <div id='about-carousel-container'>
-                    <div id='about-profile'>
+                <div className='pt-96 text-black'>
+                    <div id='about-profile' className='pb-10'>
                         {!activeMenu && (
                             <a href="https://github.com/jcaluiz" target="_blank" className='minha-foto-link' rel='noreferrer'>
                                 <img src={minhaFoto} onClick alt='minha foto' className='minha-foto' />
@@ -49,7 +54,7 @@ export default function Profile() {
                             <h2 id='about-title'>SOBRE MIM</h2>
                             <p>
                                 Olá! É um prazer te receber em meu portfólio. Tenho 29 anos, sou  graduado em Economia
-                                e tornei-me Desenvolvedor Web Full-Stack estudando durante um ano na Trybe.
+                                e tornei-me Desenvolvedor Web Full-Stack estudando na Trybe.
                                 Ganhei experiência com diversos projetos na Trybe e em projetos open-source.
                                 Desenvolvo com diversas tecnologias e uma coisa que pude aprender durante a
                                 minha vida é aprender a aprender e gostar de aprender, esse último me motiva
@@ -57,11 +62,15 @@ export default function Profile() {
                             </p>
                         </div>
                     </div>
-                    <div className='skills-profile-container'>
-                        <h2>Habilidades</h2>
+                    <div className='skills-profile-container bg-white-body pb-20 w-full pl-16'>
+                        <h2 className='w-full lg:text-center'>Habilidades</h2>
                         <SkillsComponent />
                     </div>
-                    <ProjectsComponent pageTitle='Projetos' classN='project-in-profile' />
+                    <ProjectsComponent pageTitle='Projetos' classN='w-full bg-white-body' />
+                    {/* <div className="flex h-screen w-screen flex-col gap-5">
+                        <h1 className='text-center text-5xl'>Projetos</h1>
+                        <Project />
+                    </div> */}
                     <ContactComponent />
                     <Footer />
                 </div>

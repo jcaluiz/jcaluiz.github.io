@@ -35,7 +35,7 @@ export default function ProjectsComponent(props) {
 
     return (
         <div className={props.classN}>
-            <div className='main'>
+            <div className='main w-full'>
                 <main className="main-project">
                     <h1>{props.pageTitle}</h1>
                     <Form.Select size="sm" id="select-project" onChange={(e) => getSelectValue(e)}>
@@ -44,11 +44,11 @@ export default function ProjectsComponent(props) {
                         <option>Back-end</option>
                     </Form.Select>
                     <br />
-                    <div id="projects-card">
+                    <div className='grid grid-cols-3 pl-20 h-96 overflow-auto max-lg:flex flex-col max-lg:pl-0'>
                         {
                             projectState.map((project) => (
-                                <div className="container">
-                                    <div className="card">
+                                <div className="container mb-5">
+                                    <div className="card w-96 h-80 max-lg:w-72">
                                         <img className='info-image' alt="imagem informação" src={info} onClick={() => setInfoActive((state) => ({
                                             ...state,
                                             [project.id]: !infoActive[project.id],
@@ -76,7 +76,7 @@ export default function ProjectsComponent(props) {
                                                 </div>
                                                 <div className="contentBx">
                                                     <h2 id='project-title'>{project.title}</h2>
-                                                    <a href={project.hrefGitHub} className="btn-project-cursor" target="_blank" rel="noreferrer">
+                                                    <a href={project.hrefGitHub} className="btn-project-cursor max-lg:" target="_blank" rel="noreferrer">
                                                         <div className="box-3">
                                                             <div className="btn-project btn-three">
                                                                 <span>PÁGINA DO GITHUB</span>

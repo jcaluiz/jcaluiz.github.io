@@ -2,16 +2,18 @@ import React, { useContext } from 'react';
 import logoImagem from '../images/header/logo-portfolio.png';
 import HeaderButtonsActive from './toolsHeader/HeaderButtonsActive';
 import PortfolioContext from '../context/PortfolioContext';
+import { useHistory } from 'react-router-dom';
 
 export default function Header() {
     const {activeMenu, setActiveMenu} = useContext(PortfolioContext);
+    const router = useHistory();
 
     return (
         <header className='header-content-container'>
             <nav id='header-container'>
-                <div id='header-elements-container'>
-                    <img id='imagem-logo' src={logoImagem} alt='imagem de logo' />
-                </div>
+                <button id='header-elements-container' onClick={() => router.push('/')} className='w-60'>
+                    <img id='imagem-logo' src={logoImagem} alt='imagem de logo' className='w-10' />
+                </button>
                 <div className='menu-buttons-container'>
                     <div className='mobile-menu' onClick={() => setActiveMenu((state) => !state)}>
                         <div className='line1'></div>

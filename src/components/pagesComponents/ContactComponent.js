@@ -38,7 +38,7 @@ export default function ContactComponent() {
     return (
         <>
             {/* <Header /> */}
-            <main className="main-contact">
+            <main className="main-contact bg-white-body">
                 <h1 id="title-contact-page">Deixe aqui a sua mensagem</h1>
                 <Form className="forms-container" onSubmit={sendEmail}>
                     <Form.Group
