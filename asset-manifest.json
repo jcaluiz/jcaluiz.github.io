@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.31218dc3.css",
-    "main.js": "/static/js/main.62bf890e.js",
+    "main.css": "/static/css/main.49a369ce.css",
+    "main.js": "/static/js/main.56d44dee.js",
     "static/media/trybewallet.png": "/static/media/trybewallet.359ce202432a7ff007e2.png",
     "static/media/color-guess.png": "/static/media/color-guess.4cc340f9b68af296bb92.png",
     "static/media/store-manager.png": "/static/media/store-manager.36409ad71ac06795fc87.png",
@@ -30,12 +30,15 @@
     "static/media/Redux.png": "/static/media/Redux.2e5a21bd27d4dbcb0884.png",
     "static/media/css.png": "/static/media/css.7654ce00c5ac2e76e015.png",
     "static/media/html5.png": "/static/media/html5.31497a13d5b51cea9b7d.png",
+    "static/media/java.svg": "/static/media/java.3f07ed8db7bcb55da497b664422bf80f.svg",
+    "static/media/tailwind.svg": "/static/media/tailwind.56d7dc62ad4c3cbb631beddb67876e8f.svg",
+    "static/media/next.svg": "/static/media/next.b0cd4ec7d66b9048682c2d58d2a4008b.svg",
     "index.html": "/index.html",
-    "main.31218dc3.css.map": "/static/css/main.31218dc3.css.map",
-    "main.62bf890e.js.map": "/static/js/main.62bf890e.js.map"
+    "main.49a369ce.css.map": "/static/css/main.49a369ce.css.map",
+    "main.56d44dee.js.map": "/static/js/main.56d44dee.js.map"
   },
   "entrypoints": [
-    "static/css/main.31218dc3.css",
-    "static/js/main.62bf890e.js"
+    "static/css/main.49a369ce.css",
+    "static/js/main.56d44dee.js"
   ]
 }
