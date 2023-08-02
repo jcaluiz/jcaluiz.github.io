@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.49a369ce.css",
-    "main.js": "/static/js/main.56d44dee.js",
+    "main.js": "/static/js/main.e95976f2.js",
     "static/media/trybewallet.png": "/static/media/trybewallet.359ce202432a7ff007e2.png",
     "static/media/color-guess.png": "/static/media/color-guess.4cc340f9b68af296bb92.png",
     "static/media/store-manager.png": "/static/media/store-manager.36409ad71ac06795fc87.png",
@@ -35,10 +35,10 @@
     "static/media/next.svg": "/static/media/next.b0cd4ec7d66b9048682c2d58d2a4008b.svg",
     "index.html": "/index.html",
     "main.49a369ce.css.map": "/static/css/main.49a369ce.css.map",
-    "main.56d44dee.js.map": "/static/js/main.56d44dee.js.map"
+    "main.e95976f2.js.map": "/static/js/main.e95976f2.js.map"
   },
   "entrypoints": [
     "static/css/main.49a369ce.css",
-    "static/js/main.56d44dee.js"
+    "static/js/main.e95976f2.js"
   ]
 }
