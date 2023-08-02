@@ -50,7 +50,7 @@ const projects = [
         image: APIImage,
         title: 'API StarWars',
         text: `Esta é uma API feita em Python com FastAPI para o front-end do Projeto Star Wars Search`,
-        hrefPage: 'https://starwars-api-production.up.railway.app/docs#/planets/list_planets_get_planets_get',
+        hrefPage: 'https://starwars-oxvej3n7i-jcaluiz.vercel.app/get_planets',
         hrefGitHub: 'https://github.com/jcaluiz/Project-StartWars-Planet-Search',
         underDevelopment: false,
         developmentType: 'Back-end',
